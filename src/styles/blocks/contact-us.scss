@@ -94,7 +94,7 @@
     font-weight: $fw-500;
     text-decoration: none;
     color: $second-text-color;
-    transition: color $effectDuration;
+    transition: color $effect-duration;
 
     &:hover{
       color: grey;

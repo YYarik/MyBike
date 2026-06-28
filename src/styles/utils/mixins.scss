@@ -68,7 +68,7 @@
   font-weight: $fw-700;
   height: 56px;
   border-radius: 40px;
-  transition: box-shadow $effectDuration;
+  transition: box-shadow $effect-duration;
 
   &:hover {
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
