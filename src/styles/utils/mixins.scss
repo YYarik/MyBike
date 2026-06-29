@@ -25,9 +25,11 @@
 }
 
 .container {
-  margin: 0;
-
   @include content-padding-inline;
+
+  box-sizing: border-box;
+  max-width: $container-max-width;
+  margin-inline: auto;
 }
 
 @mixin page-grid {
